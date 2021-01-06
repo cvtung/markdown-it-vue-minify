@@ -90,9 +90,6 @@ amd default plugins options:
     anchorClassName: 'anchor',
     anchorLinkSymbolClassName: 'octicon octicon-link'
   },
-  mermaid: {
-    theme: 'default'
-  },
   image: {
     hAlign: 'left',
     viewer: true

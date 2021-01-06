@@ -55,9 +55,6 @@ const DEFAULT_OPTIONS_GITHUBTOC = {
   anchorClassName: 'anchor',
   anchorLinkSymbolClassName: 'octicon octicon-link'
 }
-const DEFAULT_OPTIONS_MERMAID = {
-  theme: 'default'
-}
 const DEFAULT_OPTIONS_IMAGE = {
   hAlign: 'left',
   viewer: true
@@ -81,7 +78,6 @@ export default {
           katex: DEFAULT_OPTIONS_KATEX,
           tasklists: DEFAULT_OPTIONS_TASKLISTS,
           githubToc: DEFAULT_OPTIONS_GITHUBTOC,
-          mermaid: DEFAULT_OPTIONS_MERMAID
         }
       }
     }
@@ -113,7 +109,6 @@ export default {
     const optKatex = this.options.katex || DEFAULT_OPTIONS_KATEX
     const optTasklists = this.options.tasklists || DEFAULT_OPTIONS_TASKLISTS
     const optGithubToc = this.options.githubToc || DEFAULT_OPTIONS_GITHUBTOC
-    const optMermaid = this.options.mermaid || DEFAULT_OPTIONS_MERMAID
     const optImage = this.options.image || DEFAULT_OPTIONS_IMAGE
     optImage.urlSet = new Set()
 

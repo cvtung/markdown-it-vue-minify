@@ -28,7 +28,7 @@
     "build:example": "node --max_old_space_size=8192 node_modules/@vue/cli-service/bin/vue-cli-service.js build --dest example/dist ./example/main.js",
     "build:lib": "node --max_old_space_size=8192 node_modules/@vue/cli-service/bin/vue-cli-service.js build --target lib ./src/index.js"
   },
-  "main": "dist/markdown-it-vue.umd.min.js",
+  "main": "dist/markdown-it-vue-minify.umd.min.js",
   "dependencies": {
     "github-markdown-css": "^4.0.0",
     "highlight.js": "^10.4.1",

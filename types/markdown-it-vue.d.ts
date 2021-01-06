@@ -220,11 +220,6 @@ export interface MarkdownItVueOptions {
    */
   githubToc: GithubTocOptions
   /**
-   * The options of mermaid.
-   * https://mermaid-js.github.io/mermaid/#/Setup?id=mermaidapi-configuration-defaults
-   */
-  mermaid: object,
-  /**
    * The options of ImageViewer.
    */
   image: ImageOptions
