@@ -1,11 +1,9 @@
 {
-  "name": "markdown-it-vue-minify",
+  "name": "@tungcv/markdown-it-vue-minify",
   "version": "1.0.0",
   "private": false,
   "description": "The basic Vue lib for markdown-it (No chart and FontAwesome)",
-  "author": {
-    "name": "cvtung"
-  },
+  "author": "cvtung",
   "keywords": [
     "markdown",
     "markdown-it",
@@ -94,5 +92,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cvtung/markdown-it-vue-minify.git"
+  },
+  "directories": {
+    "doc": "doc",
+    "example": "example"
   }
 }
