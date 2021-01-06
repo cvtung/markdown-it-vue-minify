@@ -1,18 +1,18 @@
 {
-  "name": "markdown-it-vue",
-  "version": "1.1.6",
+  "name": "markdown-it-vue-minify",
+  "version": "1.0.0",
   "private": false,
-  "description": "The vue lib for markdown-it",
+  "description": "The basic Vue lib for markdown-it (No chart and FontAwesome)",
   "author": {
-    "name": "ravenq",
-    "e-mail": "flw_dream@126.com"
+    "name": "cvtung"
   },
   "keywords": [
     "markdown",
     "markdown-it",
     "markdown-it-plugin",
     "vue",
-    "markdown-it-vue"
+    "markdown-it-vue",
+    "markdown-it-vue-minify"
   ],
   "files": [
     "dist",
@@ -23,17 +23,13 @@
   "typings": "types/index.d.ts",
   "scripts": {
     "dev": "vue-cli-service serve ./example/main.js",
-    "build": "npm run build:lib && npm run build:light && npm run build:example",
+    "build": "npm run build:lib && npm run build:example",
     "lint": "vue-cli-service lint",
     "build:example": "node --max_old_space_size=8192 node_modules/@vue/cli-service/bin/vue-cli-service.js build --dest example/dist ./example/main.js",
-    "build:lib": "node --max_old_space_size=8192 node_modules/@vue/cli-service/bin/vue-cli-service.js build --target lib ./src/index.js",
-    "build:light": "node --max_old_space_size=8192 node_modules/@vue/cli-service/bin/vue-cli-service.js build --target lib --name markdown-it-vue-light --no-clean ./src/index-light.js"
+    "build:lib": "node --max_old_space_size=8192 node_modules/@vue/cli-service/bin/vue-cli-service.js build --target lib ./src/index.js"
   },
   "main": "dist/markdown-it-vue.umd.min.js",
   "dependencies": {
-    "echarts": "^5.0.0",
-    "flowchart.js": "^1.15.0",
-    "font-awesome-icon-chars": "^2.6.0",
     "github-markdown-css": "^4.0.0",
     "highlight.js": "^10.4.1",
     "markdown-it": "^12.0.4",
@@ -53,7 +49,6 @@
     "markdown-it-sup": "^1.0.0",
     "markdown-it-task-lists": "^2.1.1",
     "markdown-it-toc-and-anchor": "^4.1.2",
-    "mermaid": "^8.8.4",
     "vue": "^2.6.12"
   },
   "devDependencies": {
@@ -92,12 +87,12 @@
     "not ie <= 8"
   ],
   "bugs": {
-    "url": "https://github.com/ravenq/markdown-it-vueissues"
+    "url": "https://github.com/cvtung/markdown-it-vue-minify/issues"
   },
-  "homepage": "https://github.com/ravenq/markdown-it-vue",
+  "homepage": "https://github.com/cvtung/markdown-it-vue-minify",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ravenq/markdown-it-vue.git"
+    "url": "git+https://github.com/cvtung/markdown-it-vue-minify.git"
   }
 }

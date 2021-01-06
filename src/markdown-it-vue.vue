@@ -31,18 +31,11 @@ import MarkdownItContainer from 'markdown-it-container'
 import MarkdownItGithubToc from 'markdown-it-github-toc'
 import MarkdownItSourceMap from 'markdown-it-source-map'
 import MarkdownItLinkAttributes from './markdown-it-link-attributes'
-import MarkdownItEcharts from './markdown-it-plugin-echarts'
-import MarkdownItMermaid from './markdown-it-plugin-mermaid'
-import MarkdownItFlowchart from './markdown-it-plugin-flowchart'
 import MarkdownItHighlight from './markdown-it-highlight'
-import MarkdownItFontAwsome from './markdown-it-font-awsome'
 import MarkdownItImage from './markdown-it-image'
 import 'github-markdown-css'
 import 'markdown-it-latex/dist/index.css'
 
-import echarts from 'echarts/dist/echarts.simple.min'
-import mermaid from 'mermaid'
-import flowchart from 'flowchart.js'
 import ImageViewer from './markdown-it-image/image-viewer.vue'
 
 const DEFAULT_OPTIONS_LINK_ATTRIBUTES = {
@@ -102,29 +95,6 @@ export default {
           this.$refs['markdown-it-vue-container'].innerHTML = this.md.render(
             val
           )
-          // render echarts
-          document.querySelectorAll('.md-echarts').forEach(element => {
-            try {
-              let options = JSON.parse(element.textContent)
-              let chart = echarts.init(element)
-              chart.setOption(options)
-            } catch (e) {
-              element.outerHTML = `<pre>echarts complains: ${e}</pre>`
-            }
-          })
-          // render mermaid
-          mermaid.init(undefined, document.querySelectorAll('.mermaid'))
-          // render flowchart
-          document.querySelectorAll('.md-flowchart').forEach(element => {
-            try {
-              let code = element.textContent
-              let chart = flowchart.parse(code)
-              element.textContent = ''
-              chart.drawSVG(element)
-            } catch (e) {
-              element.outerHTML = `<pre>flowchart complains: ${e}</pre>`
-            }
-          })
 
           let list = []
           for (const i of this.urlSet) {
@@ -159,13 +129,9 @@ export default {
       .use(MarkdownItHighlight)
       .use(MarkdownItLatex)
       .use(MarkdownItSourceMap)
-      .use(MarkdownItMermaid, optMermaid)
-      .use(MarkdownItEcharts)
-      .use(MarkdownItFlowchart)
       .use(MarkdownItLinkAttributes, linkAttributes)
       .use(MarkdownItKatex, optKatex)
       .use(MarkdownItTasklists, optTasklists)
-      .use(MarkdownItFontAwsome)
       .use(MarkdownItGithubToc, optGithubToc)
       .use(MarkdownItImage, optImage)
       .use(MarkdownItContainer, 'warning', {

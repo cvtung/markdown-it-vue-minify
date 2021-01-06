@@ -1,13 +1,5 @@
 # markdown-it-vue
 
-[![Build Status](https://travis-ci.org/ravenq/markdown-it-vue.svg?branch=master)](https://travis-ci.org/ravenq/markdown-it-vue)
-
-> The vue lib for markdown-it.
-
-## Demo online
-
-[http://www.aqcoder.com/markdown](http://www.aqcoder.com/markdown)
-
 ## Install
 
 ```sh
@@ -21,9 +13,6 @@ npm install markdown-it-vue
 - GFM TOC
 - GFM style
 - emoji
-- [mermaid charts](http://knsv.github.io/mermaid/)
-- [Echarts](http://echarts.baidu.com) **simple only**
-- Flowcharts.js
 - Subscript/Superscript
 - [AsciiMath](http://asciimath.org/)
 - info | error | warning message tip
@@ -51,12 +40,8 @@ npm install markdown-it-vue
 internal plugin list:
 
 - markdown-it-image
-- markdown-it-font-awsome
 - markdown-it-link-attributes
 - markdown-it-highlight
-- markdown-it-plugin-echarts
-- markdown-it-plugin-mermaid
-- markdown-it-plugin-flowchart
 
 ## Options
 
@@ -96,7 +81,6 @@ amd default plugins options:
     throwOnError: false,
     errorColor: '#cc0000'
   },
-  icons: 'font-awesome',
   githubToc: {
     tocFirstLevel: 2,
     tocLastLevel: 3,
@@ -176,22 +160,9 @@ PR for you lang wich you want.
 ## image size
 
 ```md
-![image size](https://http://www.aqcoder.com/ravenq-qr.png =50x50)
-![image size](https://http://www.aqcoder.com/ravenq-qr.png =x50)
-![image size](https://http://www.aqcoder.com/ravenq-qr.png =50x)
+![Minion](https://octodex.github.com/images/minion.png =x100)
+![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat" =100x100)
 ```
-
-## about echarts
-
-use echarts.simple to reduce the bundle size.
-
-## markdown-it-vue-light
-
-markdown-it-vue-light remove the mermaid chart to reduce the bundle size.
-
-<https://github.com/ravenq/markdown-it-vue/issues/24>
-
-for a small bundle size, it better to import the markdown-it-vue-light.
 
 ## Usage
 
@@ -218,35 +189,10 @@ export default {
 </script>
 ```
 
-the light model.
-
-```vue
-<template>
-  <div>
-    <markdown-it-vue-light class="md-body" :content="content" />
-  </div>
-</template>
-
-<script>
-import MarkdownItVueLight from 'markdown-it-vue/dist/markdown-it-vue-light.umd.min.js'
-import 'markdown-it-vue/dist/markdown-it-vue-light.css'
-export default {
-  components: {
-    MarkdownItVueLight
-  },
-  data() {
-    return {
-      content: '# your markdown content'
-    }
-  }
-}
-</script>
-```
-
 ## ScreenShot
 
-![markdown-it-vue](https://github.com/ravenq/markdown-it-vue/blob/master/doc/markdown-it-vue.png?raw=true)
+![markdown-it-vue-minify](https://github.com/cvtung/markdown-it-vue-minify/blob/master/doc/markdown-it-vue-minify.png?raw=true)
 
 ## License
 
-[MIT](https://github.com/ravenq/markdown-it-vue/blob/master/LICENSE)
+[MIT](https://github.com/cvtung/markdown-it-vue-minify/blob/master/LICENSE)
