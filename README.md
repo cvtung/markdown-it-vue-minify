@@ -1,9 +1,12 @@
-# markdown-it-vue
+# markdown-it-vue-minify
+[![Build Status](https://www.travis-ci.com/cvtung/markdown-it-vue-minify.svg?branch=master)](https://www.travis-ci.com/cvtung/markdown-it-vue-minify)
+
+> The basic Vue lib for markdown-it (No chart and FontAwesome)
 
 ## Install
 
 ```sh
-npm install markdown-it-vue
+npm install markdown-it-vue-minify
 ```
 
 ## Supports
