@@ -1,10 +1,10 @@
 export default `
-# markdown-it-vue
+# markdown-it-vue-minify
 
 ## Image size and Viewer
 
-![gvf](http://www.aqcoder.com/gvf-project.png =60x45)
-![ravenq](http://www.aqcoder.com/ravenq-qr.png =60x)
+![Minion](https://octodex.github.com/images/minion.png =x100)
+![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat" =100x100)
 
 ## GitHub Table of Contents
 
