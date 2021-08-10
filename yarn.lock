@@ -3515,10 +3515,10 @@ eslint-loader@^2.2.1:
     object-hash "^1.1.4"
     rimraf "^2.6.1"
 
-eslint-plugin-vue@7.15.1:
-  version "7.15.1"
-  resolved "https://registry.npmjs.org/eslint-plugin-vue/-/eslint-plugin-vue-7.15.1.tgz"
-  integrity sha512-4/r+n/i+ovyeW2gVRRH92kpy4lkpFbyPR4BMxGBTLtGnwqOKKzjSo6EMSaT0RhWPvEjK9uifcY8e7z5n8BIEgw==
+eslint-plugin-vue@7.15.2:
+  version "7.15.2"
+  resolved "https://registry.npmjs.org/eslint-plugin-vue/-/eslint-plugin-vue-7.15.2.tgz"
+  integrity sha512-h5ws2GewwJ02HwnDo3WdPbc867MQieg9wrWgbpzh9ELBIiuy79EWK0zfyUxYzUWNd1EECCZ/8f50UCC7Hvbamw==
   dependencies:
     eslint-utils "^2.1.0"
     natural-compare "^1.4.0"
@@ -5524,7 +5524,7 @@ markdown-it-toc-and-anchor@^4.1.2:
 
 markdown-it@^12.0.4:
   version "12.2.0"
-  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-12.2.0.tgz#091f720fd5db206f80de7a8d1f1a7035fd0d38db"
+  resolved "https://registry.npmjs.org/markdown-it/-/markdown-it-12.2.0.tgz"
   integrity sha512-Wjws+uCrVQRqOoJvze4HCqkKl1AsSh95iFAeQDwnyfxM09divCBSXlDR1uTvyUP3Grzpn4Ru8GeCxYPM8vkCQg==
   dependencies:
     argparse "^2.0.1"
@@ -5802,9 +5802,9 @@ mz@^2.4.0:
     thenify-all "^1.0.0"
 
 nan@^2.12.1:
-  version "2.14.2"
-  resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.2.tgz#f5376400695168f4cc694ac9393d0c9585eeea19"
-  integrity sha512-M2ufzIiINKCuDfBSAUr1vWQ+vuVcA9kqx8JJUsbQi6yf1uGRyb7HfpdfUr5qLXf3B/t8dPvcjhKMmlfnP47EzQ==
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/nan/-/nan-2.15.0.tgz#3f34a473ff18e15c1b5626b62903b5ad6e665fee"
+  integrity sha512-8ZtvEnA2c5aYCZYd1cvgdnU6cqwixRoYg70xPLWUws5ORTa/lnw+u4amixRS/Ac5U5mQVgp9pnlSUnbNWFaWZQ==
 
 nanomatch@^1.2.9:
   version "1.2.13"
