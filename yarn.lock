@@ -4377,10 +4377,10 @@ markdown-it-source-map@^0.1.1:
   resolved "https://registry.npmjs.org/markdown-it-source-map/-/markdown-it-source-map-0.1.1.tgz"
   integrity sha1-jYw+qzXtHrU5nscYFKS0NeJ1VW8=
 
-markdown-it-sub@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/markdown-it-sub/-/markdown-it-sub-1.0.0.tgz"
-  integrity sha1-N1/WAm6ufdywEkl/ZBEZXqHjr+g=
+markdown-it-sub@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/markdown-it-sub/-/markdown-it-sub-2.0.0.tgz#10f6c7bbf2faacf71ae1a64c75009c40ef9b2c94"
+  integrity sha512-iCBKgwCkfQBRg2vApy9vx1C1Tu6D8XYo8NvevI3OlwzBRmiMtsJ2sXupBgEA7PPxiDwNni3qIUkhZ6j5wofDUA==
 
 markdown-it-sup@^1.0.0:
   version "1.0.0"
