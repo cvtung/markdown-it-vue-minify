@@ -40,7 +40,7 @@
     "markdown-it-ins": "^3.0.1",
     "markdown-it-katex": "^2.0.3",
     "markdown-it-latex": "^0.2.0",
-    "markdown-it-mark": "^3.0.1",
+    "markdown-it-mark": "^4.0.0",
     "markdown-it-regex": "^0.2.0",
     "markdown-it-source-map": "^0.1.1",
     "markdown-it-sub": "^2.0.0",
