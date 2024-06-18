@@ -3531,9 +3531,9 @@ get-stream@^6.0.0:
   integrity sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg==
 
 github-markdown-css@^5.0.0:
-  version "5.4.0"
-  resolved "https://registry.yarnpkg.com/github-markdown-css/-/github-markdown-css-5.4.0.tgz#4ef2093852d4fa977a2edbeaf752475c858de7d1"
-  integrity sha512-eJhoFp9fiZ290h0vWrU5MmW0A2eeB81Lv/3ZkdtKrylJvtWi71ezGrxCcw1P2fVr82s3NvBX66SoDCN1pWLadw==
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/github-markdown-css/-/github-markdown-css-5.6.1.tgz#8ca3d5c3d93d79ea429fddafea091347ab374f78"
+  integrity sha512-DItLFgHd+s7HQmk63YN4/TdvLeRqk1QP7pPKTTPrDTYoI5x7f/luJWSOZxesmuxBI2srHp8RDyoZd+9WF+WK8Q==
 
 glob-parent@^5.1.2, glob-parent@~5.1.2:
   version "5.1.2"
